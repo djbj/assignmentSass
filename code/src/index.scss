@@ -1,0 +1,109 @@
+$font-stack: Helvetica, sans-serif;
+$color-main-gray: #E3E3E3;
+$color-main-blue: #002a3a;
+$color-norwegian-red: #d81939;
+$color-light-grey: #F1F1F1;
+$font-size: 16px;
+$font-size-important: 18px;
+$label-color: #002a3a;
+$font-color: #002a3a;
+$white: #FFFFFF;
+$weight-bold: 600;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 100% $font-stack;
+  color: blue;
+}
+
+.tab {
+  width: 10%;
+  background-color: $color-main-gray;
+  text-align: center;
+  font-family: $font-stack;
+  color: $color-main-blue;
+  padding: 8px;
+  font-size: $font-size;
+  font-weight: $weight-bold;
+}
+
+form {
+  width: 80%;
+  padding: 24px;
+  background-color: #E3E3E3;
+  position: fixed;
+  // display: flex;
+}
+
+.upper-part {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+  width: 50%;
+  display: inline-bloc;
+}
+.autosuggest {
+  display: block;
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+label {
+  color: $label-color;
+  display: block;
+  font-weight: $weight-bold;
+}
+
+.inputCities {
+  padding: 14px 12px 12px;
+  font-size: $font-size;
+  display: inline-block;
+  width: 80%;
+  color: $font-color;
+}
+
+.shortcut-cities {
+  color: $font-color;
+  margin-top: 12px;
+  span {
+    border-bottom-style: dotted;
+    border-color: #003d50;
+  }
+}
+
+.X {
+  width: 20%;
+  height: 46px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.flight-details {
+  // visibility: hidden;
+}
+
+.enter {
+  background-color: $color-norwegian-red;
+  font-size: $font-size-important;
+  font-weight: 400;
+  color: $white;
+  border: 0;
+  padding: 17px 60px 11px 16px;
+  margin-bottom: 12px;
+  display: block;
+}
+
+// @mixin horisontal-line($lineColor) {
+//           color: $lineColor;
+// }
+//
+// @mixin name ($color-main-blue){
+//
+// }
